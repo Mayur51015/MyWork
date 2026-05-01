@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #020617;
+  --surface: rgba(15,23,42,0.94);
+  --surface-soft: rgba(15,23,42,0.8);
+  --surface-panel: rgba(15,23,42,0.72);
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --border: rgba(148,163,184,0.12);
+}
+
+html.light {
+  color-scheme: light;
+  --bg: #f8fafc;
+  --surface: rgba(255,255,255,0.9);
+  --surface-soft: rgba(248,250,252,0.9);
+  --surface-panel: rgba(241,245,249,0.96);
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: rgba(148,163,184,0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-surface {
+  color: var(--text);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.bg-surface {
+  background: var(--surface);
+}
+
+.bg-surface-soft {
+  background: var(--surface-soft);
+}
+
+.bg-surface-panel {
+  background: var(--surface-panel);
+}
+
+.border-surface {
+  border-color: var(--border);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(56,189,248,0.7) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(56,189,248,0.5);
+  border-radius: 9999px;
+}
+
+::selection {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(56,189,248,0.5);
+  border-radius: 9999px;
+}
+
+::selection {
+  @apply bg-sky-400 text-slate-950;
+}
+
+.section-fade {
+  opacity: 0;
+  transform: translateY(30px);
+}
