@@ -30,8 +30,8 @@ function Hero() {
   const highlight = useMemo(() => phrases[phraseIndex], [phraseIndex]);
 
   return (
-    <section id="hero" className="pt-24 pb-20">
-      <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+    <section id="hero" className="pt-16 pb-20 sm:pt-24">
+      <div className="grid gap-8 md:gap-10 md:grid-cols-[1.1fr_0.9fr] lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <motion.div
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ function Hero() {
           <p className="mb-4 inline-flex rounded-full bg-cyan-400/10 px-4 py-2 text-sm uppercase tracking-[0.4em] text-cyan-300 ring-1 ring-cyan-400/20">
             Hello, I&apos;m Mayur K.
           </p>
-          <h1 className="text-4xl font-semibold tracking-tight text-surface sm:text-5xl">
+          <h1 className="text-3xl font-semibold tracking-tight text-surface sm:text-4xl md:text-5xl">
             Building scalable web applications and AI-powered solutions.
           </h1>
           <p className="mt-6 max-w-xl text-muted sm:text-lg">
@@ -54,9 +54,9 @@ function Hero() {
               Contact Me
               <FiArrowRight className="ml-3" />
             </a>
-            <div className="rounded-3xl border border-surface bg-surface-soft px-5 py-4 shadow-glow">
-              <p className="text-sm uppercase tracking-[0.32em] text-muted">Current focus</p>
-              <p className="mt-3 text-lg font-semibold text-surface">
+            <div className="hidden sm:block rounded-3xl border border-surface bg-surface-soft px-4 py-3 sm:px-5 sm:py-4 shadow-glow">
+              <p className="text-xs sm:text-sm uppercase tracking-[0.32em] text-muted">Current focus</p>
+              <p className="mt-2 sm:mt-3 text-base sm:text-lg font-semibold text-surface">
                 {text}
                 <span className="ml-1 inline-block h-5 w-1 animate-pulse bg-cyan-300" />
               </p>

@@ -19,10 +19,10 @@ const interests = ['AI Development', 'Web Development', 'Backend Programming', '
 
 function Certifications() {
   return (
-    <section id="certifications" className="pt-24">
+    <section id="certifications" className="pt-16 sm:pt-24">
       <SectionHeading title="Certifications & Achievements" subtitle="Recognition" />
       
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-4 sm:gap-6 md:grid-cols-1 lg:grid-cols-2">
         <motion.div
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="min-h-screen text-surface">
       <Navbar />
-      <main className="mx-auto max-w-7xl px-6 pb-20 pt-24 sm:px-8 lg:px-12">
+      <main className="mx-auto max-w-7xl px-4 pb-12 pt-20 sm:px-6 sm:pb-20 sm:pt-24 lg:px-12\">
         <Hero />
         <About />
         <Skills />

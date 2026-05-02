@@ -31,7 +31,7 @@ function Contact() {
   ];
 
   return (
-    <section id="contact" className="pt-24">
+    <section id="contact" className="pt-16 sm:pt-24">
       <SectionHeading title="Get In Touch" subtitle="Contact" />
       <div className="mx-auto max-w-2xl">
         <motion.div

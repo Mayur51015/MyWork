@@ -3,9 +3,9 @@ import SectionHeading from './SectionHeading.jsx';
 
 function About() {
   return (
-    <section id="about" className="pt-24">
+    <section id="about" className="pt-16 sm:pt-24">
       <SectionHeading title="About Me" subtitle="Professional summary" />
-      <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+      <div className="grid gap-8 md:gap-10 md:grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <motion.div
           initial={{ opacity: 0, x: -45 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -13,7 +13,7 @@ function About() {
           transition={{ duration: 0.7 }}
           className="rounded-[2rem] border border-surface bg-surface-soft p-8 shadow-glow"
         >
-          <div className="grid gap-6 md:grid-cols-[0.9fr_1.1fr]">
+          <div className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-[0.9fr_1.1fr]">
             <div className="rounded-[1.75rem] bg-surface p-6 text-center ring-1 ring-cyan-400/10">
               <div className="mx-auto mb-5 h-28 w-28 overflow-hidden rounded-full border border-cyan-400/10 bg-cyan-400/10 sm:h-32 sm:w-32">
                 <img

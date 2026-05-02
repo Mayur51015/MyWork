@@ -72,9 +72,9 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="pt-24">
+    <section id="projects" className="pt-16 sm:pt-24">
       <SectionHeading title="Featured Projects" subtitle="My work" />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-4 sm:gap-6 md:grid-cols-1 lg:grid-cols-2">
         {projects.map((project, index) => (
           <motion.div
             key={project.title}

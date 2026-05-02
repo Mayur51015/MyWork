@@ -26,7 +26,7 @@ const experiences = [
 
 function Experience() {
   return (
-    <section id="experience" className="pt-24">
+    <section id="experience" className="pt-16 sm:pt-24">
       <SectionHeading title="Work Experience" subtitle="Professional journey" />
       <div className="space-y-6">
         {experiences.map((exp, index) => (
