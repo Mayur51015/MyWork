@@ -12,7 +12,7 @@ function Contact() {
     },
     {
       title: 'Phone',
-      value: '8189019117',
+      value: '8180919117',
       href: 'tel:+918189019117',
       icon: <FiPhone className="h-5 w-5 text-cyan-300" />
     },
