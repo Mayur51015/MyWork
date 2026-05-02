@@ -74,8 +74,12 @@ function Hero() {
           <div className="absolute inset-0 rounded-[2rem] bg-[radial-gradient(circle_at_top,_rgba(14,165,233,0.18),_transparent_45%),linear-gradient(180deg,rgba(15,23,42,0.72),rgba(15,23,42,0.96))]" />
           <div className="relative overflow-hidden rounded-[2rem] border border-cyan-400/10 bg-surface-soft p-8 shadow-glow">
             <div className="mb-8 rounded-3xl border border-surface bg-surface p-8 text-center">
-              <div className="mx-auto mb-6 flex h-28 w-28 items-center justify-center rounded-full bg-cyan-500/10 text-3xl font-bold text-cyan-300 ring-1 ring-cyan-300/20">
-                MY
+              <div className="mx-auto mb-6 h-28 w-28 overflow-hidden rounded-full border border-cyan-300/20 bg-cyan-500/10 sm:h-32 sm:w-32">
+                <img
+                  src="/profile.jpg"
+                  alt="Mayur profile"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <p className="text-sm uppercase tracking-[0.4em] text-cyan-300/90">Developer</p>
               <h2 className="mt-4 text-2xl font-semibold text-surface">Mayur K.</h2>

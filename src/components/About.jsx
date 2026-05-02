@@ -15,8 +15,12 @@ function About() {
         >
           <div className="grid gap-6 md:grid-cols-[0.9fr_1.1fr]">
             <div className="rounded-[1.75rem] bg-surface p-6 text-center ring-1 ring-cyan-400/10">
-              <div className="mx-auto mb-5 flex h-28 w-28 items-center justify-center rounded-full bg-cyan-400/10 text-4xl font-bold text-cyan-300">
-                M
+              <div className="mx-auto mb-5 h-28 w-28 overflow-hidden rounded-full border border-cyan-400/10 bg-cyan-400/10 sm:h-32 sm:w-32">
+                <img
+                  src="/profile.jpg"
+                  alt="Profile photo"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <p className="text-sm uppercase tracking-[0.32em] text-cyan-300/80">Profile</p>
               <p className="mt-4 text-muted">Pursuing B.Tech in Computer Engineering from Zeal College of Engineering and Research, Narhe, Pune (2024–2028) with CGPA 8.0.</p>
@@ -52,8 +56,12 @@ function About() {
         >
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="rounded-[1.8rem] bg-surface p-6 shadow-xl shadow-slate-950/20">
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-cyan-500/20 via-slate-800 to-slate-950 p-6">
-                <div className="h-full w-full rounded-3xl border border-cyan-400/10 bg-surface-soft" />
+              <div className="aspect-square overflow-hidden rounded-3xl border border-cyan-400/10 bg-gradient-to-br from-cyan-500/20 via-slate-800 to-slate-950 p-2">
+                <img
+                  src="/capabilities.png"
+                  alt="Capabilities visual"
+                  className="h-full w-full rounded-3xl object-cover"
+                />
               </div>
             </div>
             <div className="flex flex-col justify-between gap-5">
