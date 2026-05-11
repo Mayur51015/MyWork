@@ -13,7 +13,7 @@ const projects = [
       'User authentication via JWT/Firebase with secure session handling',
       'Responsive modern UI/UX with coding activity monitoring and profile insights'
     ],
-    tech: ['React.js', 'Tailwind CSS', 'Python Flask', 'MongoDB', 'JWT', 'GraphQL APIs'],
+    tech: ['React.js', 'Tailwind CSS', 'Node.js','Express.js', 'MongoDB', 'JWT', 'GraphQL APIs','MERN Stack ','API Integration'],
     github: 'https://github.com/Mayur51015/Mavi-Linking'
   },
   {
@@ -39,7 +39,7 @@ const projects = [
       'Ensured efficient backend processing for concurrent bid handling',
       'Combined e-commerce concepts with auction-based system design'
     ],
-    tech: ['JavaScript', 'Real-time Bidding', 'E-commerce', 'Database'],
+    tech: ['JavaScript', 'Real-time Bidding',  'Database'],
     github: 'https://github.com/Mayur51015/MavaiBids'
   },
   {
@@ -52,7 +52,7 @@ const projects = [
       'Applied CRUD operations for efficient data handling',
       'Built clean and responsive UI for real-world usability'
     ],
-    tech: ['React', 'Tailwind CSS', 'MongoDB', 'E-commerce'],
+    tech: ['React', 'Tailwind CSS', 'MongoDB'],
     github: 'https://github.com/Mayur51015/Fort-Flora'
   },
   {
@@ -65,7 +65,7 @@ const projects = [
       'Designed frontend interface for seamless user interaction',
       'Demonstrated practical implementation of AI in real-world applications'
     ],
-    tech: ['React', 'Python', 'AI/ML', 'API Integration'],
+    tech: ['React', 'Node.js', 'Express.js', 'API Integration'],
     github: 'https://github.com/Mayur51015/mavi.ai'
   },
   {
@@ -78,7 +78,7 @@ const projects = [
       'Designed backend logic for efficient record management',
       'Solved real-world problem of manual attendance tracking'
     ],
-    tech: ['Backend Development', 'Database', 'CRUD Operations', 'Authentication'],
+    tech: ['Backend Development', 'Database', 'CRUD Operations', 'Authentication', 'WebSockets.io','Node.js','Express.js '],
     github: 'https://github.com/Mayur51015/BackFront'
   }
 ];
