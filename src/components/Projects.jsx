@@ -4,6 +4,19 @@ import SectionHeading from './SectionHeading.jsx';
 
 const projects = [
   {
+    title: 'Mavi-Linking',
+    description: 'A smart developer identity & portfolio platform designed for students, freshers, and developers to showcase coding profiles, projects, certifications, and technical achievements in one centralized digital identity.',
+    features: [
+      'Integrates GitHub, LeetCode, Codeforces, LinkedIn & Stack Overflow for live coding stats and rankings',
+      'AI-powered profile analysis with recruiter-friendly dashboard and analytics tracking',
+      'Public shareable portfolios with resume integration and certification management',
+      'User authentication via JWT/Firebase with secure session handling',
+      'Responsive modern UI/UX with coding activity monitoring and profile insights'
+    ],
+    tech: ['React.js', 'Tailwind CSS', 'Python Flask', 'MongoDB', 'JWT', 'GraphQL APIs'],
+    github: 'https://github.com/Mayur51015/Mavi-Linking'
+  },
+  {
     title: 'ConnectMavai',
     description: 'Built a full-stack social networking platform enabling real-time user interaction and content sharing.',
     features: [
